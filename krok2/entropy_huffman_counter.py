@@ -16,13 +16,13 @@ class EntropyHuffmanCounter:
         if not self.letter_frequencies:
             return 0
 
-        return -sum(
+        entropy = -sum(
             frequency * math.log2(frequency)
             for frequency in self.letter_frequencies.values()
         )
+        return 0 if entropy == 0 else entropy
 
     def calculate_codes(self):
-        """Return a binary Huffman code for every symbol."""
         if not self.letter_frequencies:
             return {}
 
