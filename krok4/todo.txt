@@ -1,0 +1,11 @@
+wybrac znajomy jezyk
+zbudujemy generator struktur syntaktycznych - pomoc dydaktyczna w nauce jezyka obcego
+korzystajac z programu user dostaje tutorial jezyka
+100 rzeczownikow 100 przymiotnikow 100 czasownikow - minimalne wymagania
+zdania proste budowane wg schematu SVO
+
+GUI do zrobienia, UX zeby byl spoko
+moze byc okienko z wyborem podmiotu, liczby i osoby
+podmiot - fraza rzeczownikowa lub zaimek osobowy
+i takie opcje wyboru dalej
+
